@@ -102,8 +102,8 @@ export const translations = {
           tags: ['HTTPS', 'SSH', 'Nextcloud'],
         },
         {
-          title: 'Calculadora de costos Terrabus',
-          description: 'Desarrollo de una plataforma web para el cálculo de costos de transporte de pasajeros entre diferentes puntos del estado de Aguascalientes.',
+          title: 'Calculadora de Costos de Envío (Terrabus)',
+          description: 'Desarrollo de una plataforma para la empresa de transporte Terrabus, para automatizar la estimación de costos por peso y distancia, eliminando flujos manuales en Excel y optimizando la experiencia de usuario mediante interfaces responsivas y animaciones fluidas.',
           tags: ['React', 'Web Animations API', 'JavaScript', 'HTML/CSS'],
         },
         {
@@ -155,7 +155,7 @@ export const translations = {
       },
       email: {
         label: 'Email',
-        value: 'erick@email.com',
+        value: 'calderon.alvarez.erick.4b@gmail.com',
       },
       location: {
         label: 'Ubicación',
@@ -214,46 +214,46 @@ export const translations = {
         backend: {
           name: 'Backend & General Purpose',
           items: [
-            { name: 'Java', level: 75 },
-            { name: 'C#', level: 60 },
-            { name: 'C / C++', level: 55 },
+            { name: 'Java', level: 50 },
+            { name: 'C#', level: 50 },
+            { name: 'C / C++', level: 50 },
             { name: 'Python', level: 50 },
-            { name: 'Node.js', level: 65 },
+            { name: 'Node.js', level: 50 },
           ],
         },
         frontend: {
           name: 'Frontend & Web',
           items: [
-            { name: 'JavaScript', level: 80 },
-            { name: 'HTML5 / CSS3', level: 85 },
-            { name: 'React', level: 70 },
-            { name: 'Angular', level: 45 },
-            { name: 'Tailwind CSS', level: 65 },
-            { name: 'Bootstrap', level: 75 },
+            { name: 'JavaScript', level: 50 },
+            { name: 'HTML5 / CSS3', level: 50 },
+            { name: 'React', level: 50 },
+            { name: 'Angular', level: 50 },
+            { name: 'Tailwind CSS', level: 50 },
+            { name: 'Bootstrap', level: 50 },
           ],
         },
         database: {
           name: 'Databases',
           items: [
-            { name: 'MySQL / SQL', level: 75 },
-            { name: 'MongoDB', level: 40 },
+            { name: 'MySQL / SQL', level: 50 },
+            { name: 'MongoDB', level: 50 },
           ],
         },
         infrastructure: {
           name: 'Infrastructure & DevOps',
           items: [
-            { name: 'Docker', level: 60 },
-            { name: 'Linux / UNIX', level: 65 },
-            { name: 'Git / GitHub', level: 80 },
-            { name: 'Cisco Packet Tracer', level: 55 },
+            { name: 'Docker', level: 50 },
+            { name: 'Linux / UNIX', level: 50 },
+            { name: 'Git / GitHub', level: 50 },
+            { name: 'Cisco Packet Tracer', level: 50 },
           ],
         },
         tools: {
           name: 'Tools & Design',
           items: [
-            { name: 'Figma', level: 55 },
-            { name: 'Postman', level: 65 },
-            { name: 'Font Awesome', level: 70 },
+            { name: 'Figma', level: 50 },
+            { name: 'Postman', level: 50 },
+            { name: 'Font Awesome', level: 50 },
           ],
         },
       },
