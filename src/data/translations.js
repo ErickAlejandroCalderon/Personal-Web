@@ -127,7 +127,7 @@ export const translations = {
         ],
       },
       technical: {
-        period: 'Titulado',
+        period: '2018-2021 Titulado',
         degree: 'Técnico en Soporte y Mantenimiento de Equipo de Cómputo',
         school: 'Educación Media Superior CETis No. 155 Josefa Ortiz de Dominguez',
         details: [

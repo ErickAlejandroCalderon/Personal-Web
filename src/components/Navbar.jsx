@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
-  const { language, toggleLanguage, t } = useLanguage();
+  const { lang, toggleLang, t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -56,12 +56,12 @@ export default function Navbar() {
           <div className="navbar-actions">
             <button
               className="navbar-btn lang-btn"
-              onClick={toggleLanguage}
+              onClick={toggleLang}
               aria-label="Toggle language"
               id="lang-toggle"
             >
               <Globe size={14} />
-              {language === 'es' ? 'EN' : 'ES'}
+              {lang === 'es' ? 'EN' : 'ES'}
             </button>
 
             <button

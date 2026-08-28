@@ -87,7 +87,7 @@ export default function Hero() {
           </p>
 
           <div className="hero-cta-group" style={{ opacity: 0 }}>
-            <a href="/cv-erick-calderon.pdf" download className="btn-primary" id="download-cv">
+            <a href={`${import.meta.env.BASE_URL}cv-erick-calderon.pdf`} download className="btn-primary" id="download-cv">
               <Download size={16} />
               {t('hero.downloadCV')}
             </a>
