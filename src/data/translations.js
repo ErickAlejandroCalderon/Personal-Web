@@ -273,9 +273,9 @@ export const translations = {
           tags: ['HTTPS', 'SSH', 'Nextcloud'],
         },
         {
-          title: 'Magic Draw — Web App',
-          description: 'Development of an interactive web platform focused on user experience for organizing gift exchange dynamics ("Secret Santa") with advanced drag-and-drop mechanics.',
-          tags: ['Bootstrap 5.3', 'Web Animations API', 'JavaScript', 'HTML/CSS'],
+          title: 'Shipping Cost Calculator (Terrabus)',
+          description: 'Development of a platform for the transportation company Terrabus to automate cost estimation by weight and distance, eliminating manual Excel workflows and optimizing user experience through responsive interfaces and smooth animations.',
+          tags: ['React', 'Web Animations API', 'JavaScript', 'HTML/CSS'],
         },
         {
           title: 'PcElements — Point of Sale',
@@ -293,14 +293,14 @@ export const translations = {
         school: 'Universidad Autónoma de Aguascalientes',
         details: [
           'Center for Basic Sciences',
-          'Currently in 7th semester (2023 Curriculum)',
+          'Currently in 7th semester',
           'Focus: Software architecture, networks, distributed systems, databases & data engineering',
         ],
       },
       technical: {
-        period: 'Graduated',
+        period: '2018-2021 Graduated',
         degree: 'Computer Equipment Support and Maintenance Technician',
-        school: 'High School Education',
+        school: 'CETis No. 155 Josefa Ortiz de Dominguez High School',
         details: [
           'Preventive and corrective hardware diagnostics',
           'Local network configuration',
@@ -318,7 +318,7 @@ export const translations = {
       subtitle: 'Feel free to reach out through any of these channels.',
       github: {
         label: 'GitHub',
-        value: 'github.com/tu-usuario',
+        value: 'https://github.com/ErickAlejandroCalderon',
       },
       linkedin: {
         label: 'LinkedIn',
@@ -326,7 +326,7 @@ export const translations = {
       },
       email: {
         label: 'Email',
-        value: 'erick@email.com',
+        value: 'calderon.alvarez.erick.4b@gmail.com',
       },
       location: {
         label: 'Location',
