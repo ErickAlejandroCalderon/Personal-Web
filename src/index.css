@@ -1169,6 +1169,11 @@ ul, ol { list-style: none; }
   transform: scale(1.08);
 }
 
+.contact-card-info {
+  min-width: 0;
+  flex: 1;
+}
+
 .contact-card-info h4 {
   font-size: 0.95rem;
   font-weight: 600;
@@ -1178,6 +1183,9 @@ ul, ol { list-style: none; }
 .contact-card-info p {
   font-size: 0.82rem;
   color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ---------- Footer ---------- */
