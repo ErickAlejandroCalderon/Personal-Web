@@ -159,7 +159,7 @@ export const translations = {
       },
       location: {
         label: 'Ubicación',
-        value: 'Aguascalientes, Ags., México',
+        value: 'Aguascalientes, México',
       },
     },
     footer: {
@@ -253,7 +253,6 @@ export const translations = {
           items: [
             { name: 'Figma', level: 50 },
             { name: 'Postman', level: 50 },
-            { name: 'Font Awesome', level: 50 },
           ],
         },
       },
@@ -330,7 +329,7 @@ export const translations = {
       },
       location: {
         label: 'Location',
-        value: 'Aguascalientes, Ags., Mexico',
+        value: 'Aguascalientes, Mexico',
       },
     },
     footer: {

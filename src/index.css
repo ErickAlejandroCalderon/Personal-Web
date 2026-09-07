@@ -86,7 +86,9 @@
 }
 
 /* ---------- Reset & Base ---------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -107,17 +109,39 @@ body {
   transition: background-color var(--transition-slow), color var(--transition-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.03em;
 }
 
-a { color: inherit; text-decoration: none; }
-img { max-width: 100%; display: block; }
-button { font-family: var(--font-body); cursor: pointer; border: none; background: none; }
-ul, ol { list-style: none; }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
 
 /* ---------- Grid Background (Langbase-inspired) ---------- */
 .grid-bg {
@@ -194,7 +218,7 @@ ul, ol { list-style: none; }
   opacity: 0;
   transform: translateY(60px);
   transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1),
-              transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .reveal.visible {
@@ -205,6 +229,7 @@ ul, ol { list-style: none; }
 .reveal.from-left {
   transform: translateX(-60px);
 }
+
 .reveal.from-left.visible {
   transform: translateX(0);
 }
@@ -212,6 +237,7 @@ ul, ol { list-style: none; }
 .reveal.from-right {
   transform: translateX(60px);
 }
+
 .reveal.from-right.visible {
   transform: translateX(0);
 }
@@ -219,51 +245,119 @@ ul, ol { list-style: none; }
 .reveal.scale-up {
   transform: scale(0.92);
 }
+
 .reveal.scale-up.visible {
   transform: scale(1);
 }
 
 /* Stagger delays — smooth cascading */
-.stagger-1 { transition-delay: 0.08s; }
-.stagger-2 { transition-delay: 0.16s; }
-.stagger-3 { transition-delay: 0.24s; }
-.stagger-4 { transition-delay: 0.32s; }
-.stagger-5 { transition-delay: 0.40s; }
-.stagger-6 { transition-delay: 0.48s; }
-.stagger-7 { transition-delay: 0.56s; }
-.stagger-8 { transition-delay: 0.64s; }
+.stagger-1 {
+  transition-delay: 0.08s;
+}
+
+.stagger-2 {
+  transition-delay: 0.16s;
+}
+
+.stagger-3 {
+  transition-delay: 0.24s;
+}
+
+.stagger-4 {
+  transition-delay: 0.32s;
+}
+
+.stagger-5 {
+  transition-delay: 0.40s;
+}
+
+.stagger-6 {
+  transition-delay: 0.48s;
+}
+
+.stagger-7 {
+  transition-delay: 0.56s;
+}
+
+.stagger-8 {
+  transition-delay: 0.64s;
+}
 
 /* ---------- Keyframe Animations ---------- */
 @keyframes float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  33% { transform: translateY(-10px) rotate(1deg); }
-  66% { transform: translateY(5px) rotate(-0.5deg); }
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  33% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+
+  66% {
+    transform: translateY(5px) rotate(-0.5deg);
+  }
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(255, 135, 0, 0.25); }
-  50% { box-shadow: 0 0 28px rgba(255, 135, 0, 0.5); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(255, 135, 0, 0.25);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(255, 135, 0, 0.5);
+  }
 }
 
 @keyframes cursor-blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes code-line-appear {
-  from { opacity: 0; transform: translateX(-8px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 /* ---------- Navbar ---------- */
@@ -389,15 +483,19 @@ ul, ol { list-style: none; }
 .hamburger.open span:nth-child(1) {
   transform: rotate(45deg) translate(4.5px, 4.5px);
 }
+
 .hamburger.open span:nth-child(2) {
   opacity: 0;
 }
+
 .hamburger.open span:nth-child(3) {
   transform: rotate(-45deg) translate(4.5px, -4.5px);
 }
 
 @media (max-width: 768px) {
-  .hamburger { display: flex; }
+  .hamburger {
+    display: flex;
+  }
 
   .navbar-links {
     position: fixed;
@@ -414,7 +512,9 @@ ul, ol { list-style: none; }
     border-left: 1px solid var(--border-color);
   }
 
-  .navbar-links.open { right: 0; }
+  .navbar-links.open {
+    right: 0;
+  }
 
   .navbar-links a {
     font-size: 0.85rem;
@@ -611,9 +711,19 @@ ul, ol { list-style: none; }
   animation: code-line-appear 0.5s forwards;
 }
 
-.code-keyword { color: var(--color-primary); }
-.code-string { color: var(--color-accent); }
-.code-comment { color: var(--text-tertiary); font-style: italic; }
+.code-keyword {
+  color: var(--color-primary);
+}
+
+.code-string {
+  color: var(--color-accent);
+}
+
+.code-comment {
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
 .code-cursor {
   display: inline-block;
   width: 2px;
@@ -759,6 +869,7 @@ ul, ol { list-style: none; }
 
 .skill-category {
   padding: 32px;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
@@ -823,7 +934,7 @@ ul, ol { list-style: none; }
 
 .skill-bar {
   height: 4px;
-  background: var(--bg-tertiary);
+  background: var(--border-color);
   border-radius: var(--radius-full);
   overflow: hidden;
 }
@@ -841,13 +952,15 @@ ul, ol { list-style: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.01), transparent);
   background-size: 200% 100%;
   animation: shimmer 2.5s infinite 1.5s;
 }
 
 @media (max-width: 400px) {
-  .skills-grid { grid-template-columns: 1fr; }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- Projects Section (Origin Financial card transitions) ---------- */

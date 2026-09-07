@@ -13,24 +13,9 @@ const categoryIcons = {
 
 export default function Skills() {
   const { t } = useLanguage();
-  const [sectionRef, sectionVisible] = useIntersectionObserver({ threshold: 0.1 });
-  const animatedRef = useRef(false);
+  const [sectionRef, sectionVisible] = useIntersectionObserver({ threshold: 0.2 });
 
   const categories = t('skills.categories');
-
-  // Animate skill bars when section becomes visible
-  useEffect(() => {
-    if (sectionVisible && !animatedRef.current) {
-      animatedRef.current = true;
-      const fills = document.querySelectorAll('.skill-bar-fill');
-      fills.forEach((fill) => {
-        const level = fill.dataset.level;
-        setTimeout(() => {
-          fill.style.width = `${level}%`;
-        }, 200);
-      });
-    }
-  }, [sectionVisible]);
 
   return (
     <section className="section skills grid-bg" id="skills">
@@ -68,8 +53,10 @@ export default function Skills() {
                   <div className="skill-bar">
                     <div
                       className="skill-bar-fill"
-                      data-level={skill.level}
-                      style={{ width: 0 }}
+                      style={{ 
+                        width: sectionVisible ? `${skill.level}%` : '0%',
+                        transitionDelay: sectionVisible ? `${(catIdx * 0.1) + (i * 0.08)}s` : '0s'
+                      }}
                     />
                   </div>
                 </div>
