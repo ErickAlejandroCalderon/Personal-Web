@@ -544,6 +544,7 @@ ol {
   position: relative;
   overflow: hidden;
   padding-top: 64px;
+  padding-bottom: clamp(32px, 6vh, 64px);
 }
 
 .hero-bg {
@@ -952,7 +953,7 @@ ol {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.01), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.00), transparent);
   background-size: 200% 100%;
   animation: shimmer 2.5s infinite 1.5s;
 }

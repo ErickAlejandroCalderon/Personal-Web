@@ -18,10 +18,10 @@ export const translations = {
     about: {
       title: 'Sobre Mí',
       subtitle: 'Conoce un poco más sobre mi perfil profesional y valores.',
-      description: 'Estudiante de séptimo semestre de Ingeniería en Sistemas Computacionales con sólida formación técnica y académica orientada al desarrollo de software full-stack, la administración de bases de datos y la implementación de sistemas distribuidos.',
+      description: 'Estudiante de octavo semestre de Ingeniería en Sistemas Computacionales con sólida formación técnica y académica orientada al desarrollo de software full-stack, la administración de bases de datos y la implementación de sistemas distribuidos.',
       description2: 'Proactivo, analítico y con experiencia práctica en la resolución de problemas lógicos, configuración de infraestructura en entornos Linux y diseño de interfaces de usuario modernas. Cuento con un título técnico previo que respalda mis competencias en hardware y mantenimiento informático.',
       stats: {
-        semester: '7mo',
+        semester: '8vo',
         semesterLabel: 'Semestre',
         projects: '4+',
         projectsLabel: 'Proyectos',
@@ -66,7 +66,7 @@ export const translations = {
           name: 'Bases de Datos',
           items: [
             { name: 'MySQL / SQL', level: 50 },
-            { name: 'MongoDB', level: 50 },
+            { name: 'MongoDB', level: 30 },
           ],
         },
         infrastructure: {
@@ -75,14 +75,14 @@ export const translations = {
             { name: 'Docker', level: 50 },
             { name: 'Linux / UNIX', level: 50 },
             { name: 'Git / GitHub', level: 50 },
-            { name: 'Cisco Packet Tracer', level: 50 },
+            { name: 'Cisco Packet Tracer', level: 30 },
           ],
         },
         tools: {
           name: 'Herramientas & Diseño',
           items: [
-            { name: 'Figma', level: 50 },
-            { name: 'Postman', level: 50 },
+            { name: 'Figma', level: 20 },
+            { name: 'Postman', level: 30 },
           ],
         },
       },
@@ -122,7 +122,7 @@ export const translations = {
         school: 'Universidad Autónoma de Aguascalientes',
         details: [
           'Centro de Ciencias Básicas',
-          'Cursando el 7mo semestre',
+          'Cursando el 8vo semestre',
           'Enfoque: Arquitectura de software, redes, sistemas distribuidos, bases de datos e ingeniería de datos',
         ],
       },
@@ -188,10 +188,10 @@ export const translations = {
     about: {
       title: 'About Me',
       subtitle: 'Learn more about my professional profile and values.',
-      description: 'Seventh-semester Computer Systems Engineering student with solid technical and academic background in full-stack software development, database administration, and distributed systems implementation.',
+      description: 'Eight-semester Computer Systems Engineering student with solid technical and academic background in full-stack software development, database administration, and distributed systems implementation.',
       description2: 'Proactive, analytical, and with hands-on experience in logical problem-solving, infrastructure configuration in Linux environments, and modern user interface design. I hold a prior technical degree that supports my competencies in hardware and IT maintenance.',
       stats: {
-        semester: '7th',
+        semester: '8th',
         semesterLabel: 'Semester',
         projects: '4+',
         projectsLabel: 'Projects',
@@ -236,7 +236,7 @@ export const translations = {
           name: 'Databases',
           items: [
             { name: 'MySQL / SQL', level: 50 },
-            { name: 'MongoDB', level: 50 },
+            { name: 'MongoDB', level: 30 },
           ],
         },
         infrastructure: {
@@ -245,14 +245,14 @@ export const translations = {
             { name: 'Docker', level: 50 },
             { name: 'Linux / UNIX', level: 50 },
             { name: 'Git / GitHub', level: 50 },
-            { name: 'Cisco Packet Tracer', level: 50 },
+            { name: 'Cisco Packet Tracer', level: 30 },
           ],
         },
         tools: {
           name: 'Tools & Design',
           items: [
-            { name: 'Figma', level: 50 },
-            { name: 'Postman', level: 50 },
+            { name: 'Figma', level: 20 },
+            { name: 'Postman', level: 30 },
           ],
         },
       },
@@ -292,7 +292,7 @@ export const translations = {
         school: 'Universidad Autónoma de Aguascalientes',
         details: [
           'Center for Basic Sciences',
-          'Currently in 7th semester',
+          'Currently in 8th semester',
           'Focus: Software architecture, networks, distributed systems, databases & data engineering',
         ],
       },
